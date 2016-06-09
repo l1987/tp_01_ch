@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+*{
+	box-sizing: border-box;
+}	
+
+body{ 
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+
+/*selector universal
+descuenta de widht y height, lo sumado en padding y border 
+*/
+
+/* tarea */
+	}
+
+.main-header {
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0;
+	border: solid 1px red;
+			}
+
+.logo {
+	float: left;
+	border: solid 1px green
+}
+
+.main-nav {
+	float: right;
+	border: solid 1px yellow;
+}
+
+/* selector descendente >> aplica estilo que este adentro de otro */
+.main-nav li {
+	float: left;
+	list-style-type: none;
+	margin: 8px 0 0 15px;
+}
+
+.cleanner {
+	clear: both; 
+}
+
+.container {   
+	width: 1200px;
+	margin: auto;
+}
+
+.banner-title {
+	font-size: 50px; /* tamaño de la letra */
+	color: #fff;
+	padding-top: 150px; 
+	margin: 0; /* con esta propiedad subimos la cajita hasta el elemento header */	
+}
+
+.p-banner { 
+	font-style: 20px;
+	line-height: 27px;
+	color: #fff;
+}
+
+.register { /* es para el formulario */
+	background-color: #06b4f2;
+	position: relative; /* posicionamiento relativo, desplazar un elemento desde su ubicacion original hacia otra ubi*/
+	top: 30px; /* desde tu costado top distanciate x px*/
+}
+
+.register input {
+	width: 1000px;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit; /* para que agarre la tipografia del padre, hasta que llegue al body */
+}
+
+.register button {
+	border: none;
+	background: #06b4f2;
+	width: 195px;
+	height: 60px;
+	color: #fff;
+	font-size: 16px;
+}
+
+#banner {
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat; /* banner centro y que no se repita */
+	background-size: cover; /* cuando quiero que un fondo ocupe todo el ancho de la pantalla */
+}
+
+/* productos destacados */
+
+.container {
+
+}
+
+.producto {
+	border: dashed 1px green;
+	width: 300px;
+	text-align: center;
+	float: left;
+	margin-top: 100px; /* se desplaza hacia abajo, dejando espacio con el elemento de arriba */
+}
+section article h2, h4{
+	text-transform: uppercase;
+} 
+
+
+	/* margenes en 4 costados; distanciamiento 
+		margin-top:;
+		margin-fright:;
+		margin-bottom:;
+		margin-left:;
+		margin: auto;
+	*/
+}
+
+/* Resets */
+/* agrupacion de selectores*/
+ul, ol {
+	list-style-type: none; /* elimina la viñeta */
+	margin: 0;
+	padding: 0;
+	/*
+	padding-top: ;
+	padding-right: ;
+	padding-bottom: ;
+	padding-left: ;
+	*/
+
+	/* tamaños
+		ancho-widht:;
+		alto-height:;
+
+	modelo de cajas - box model
+
+		- widht
+		- height
+		- padding
+		- border
+			- border-style [solid; dotted; double; dashed]
+			- border-widht >> ancho del borde
+			- border-color
+				border:;	
+		- margin
+
+	*/
+
+}
+
+figure {
+	margin: 0;
+}
