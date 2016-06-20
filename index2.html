@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width"> <!-- nos permite setear como se va acomportar el contenido, viewport area visible del navegador, estamos diciendo que el ancho de la pagina se adapte al ancho del dipositivo -->
 	<meta charset="UTF-8">
+
 	<title>Maquetación Básica</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 	<header class="main-header">
+
 		<figure class="logo">
 			<img src="images/header-logo.png" alt="logo Hostro">
 			<figcaption>Logo Hostro Hosting Services</figcaption>
@@ -16,21 +19,23 @@
 		<nav class="main-nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="contact.html">Contact</a></li>	
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<div class="cleanner"></div>
+
+		<div class="cleaner"></div>
 	</header>
 
 	<!-- banner -->
 	<div id="banner">
 		<div class="container">
 			<h2 class="banner-title">Regular Updates</h2>
-			<p class="p-banner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Temporibus dolores officiis.</p>
-				<form action="" class="register">
-					<input type="email" placeholder="Enter your domain name and hit enter">
-					<button type="submit">Search</button>
-				</form>
+			<p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Temporibus dolores officiis.</p>
+
+			<form action="" class="register">
+				<input type="email" placeholder="Enter your domain name and hit enter">
+				<button type="submit">Search</button>
+			</form>
 		</div>
 	</div>
 
@@ -42,7 +47,7 @@
 				<img src="images/wid1.png" alt="speed server">
 			</figure>
 			<h4>speed servers</h4>
-			<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+			<p>Lorem adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
 
 		<article class="producto">
@@ -50,7 +55,7 @@
 				<img src="images/wid2.png" alt="descripcion">
 			</figure>
 			<h4>hostro services</h4>
-			<p>Lorem ipsum <em>dolor sit amet, consectetur adipisicing elit</em>. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+			<p>Lorem adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
 
 		<article class="producto">
@@ -58,7 +63,7 @@
 				<img src="images/wid3.png" alt="descripcion">
 			</figure>
 			<h4>live support</h4>
-			<p>Lorem ipsum <b>dolor sit amet, consectetur adipisicing elit</b>. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+			<p>Lorem adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
 
 		<article class="producto">
@@ -66,17 +71,18 @@
 				<img src="images/wid4.png" alt="descripcion">
 			</figure>
 			<h4>get domain name</h4>
-			<p>Lorem ipsum <i>dolor sit amet</i>, consectetur adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+			<p>Lorem adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
+
 		<div class="cleaner"></div>
 	</section>
 
 	<!-- services -->
 	<section class="container">
-		<h2>Hostro Services</h2>
+		<h2 class="title-services">Hostro Services</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-		<article>
+		<article class="left-services">
 			<ul>
 				<li>
 					<h3>Retina Ready</h3>
@@ -95,11 +101,11 @@
 			</ul>
 		</article>
 
-		<article>
+		<article class="cellphone">
 			<img src="images/iphone2.png" alt="Celular">
 		</article>
-		
-		<article class="container">
+
+		<article class="right-services">
 			<ul>
 			<li>
 					<h3>Unlimited Colors</h3>
@@ -117,15 +123,18 @@
 				</li>
 			</ul>
 		</article>
+
+		<div class="cleaner"></div>
 	</section>
 
 	<!-- prices -->
-	<section>
+	<section class="pricing-table">
 		<article class="container">
-			<h2>Pricing Tables</h2>
+			<div class="cleaner"></div>
+			<h3>Pricing Tables</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis non ab deleniti deserunt cum.</p>
 
-			<article>
+			<article class="price-table">
 				<h4>Small Package</h4>
 				<h2><sup>$</sup>15<sup>.9</sup></h2>
 				<p>/month</p>
@@ -150,14 +159,14 @@
 				<a href="#">Select plan</a>
 			</article>
 
-			<article>
+			<article class="price-table">
 				<h4>Normal Package</h4>
 				<h2><sup>$</sup>45<sup>.9</sup></h2>
 				<p>/month</p>
 				<table>
 					<tr>
-						<td>Hard Drive, GB</td>
-						<td>5</td>
+						<td width="70%">Hard Drive, GB</td>
+						<td width="30%">5</td>
 					</tr>
 					<tr>
 						<td>Transfer, GB</td>
@@ -175,7 +184,7 @@
 				<a href="#">Select plan</a>
 			</article>
 
-			<article>
+			<article class="price-table">
 				<h4>Big Package</h4>
 				<h2><sup>$</sup>95<sup>.9</sup></h2>
 				<p>/month</p>
@@ -200,7 +209,7 @@
 				<a href="#">Select plan</a>
 			</article>
 
-			<article>
+			<article class="price-table">
 				<h4>Best Package</h4>
 				<h2><sup>$</sup>115<sup>.9</sup></h2>
 				<p>/month</p>
@@ -224,22 +233,25 @@
 				</table>
 				<a href="#">Select plan</a>
 			</article>
+
+			<div class="cleaner"></div>
 		</article>
 	</section>
 
 
 	<!-- footer -->
-	<footer>
+	<footer class="main-footer">
 		<h3>Hosting use <span>500,000</span> happy customers. Want to see services?</h3>
-		<article>
+		<article class="bg-dark">
 			<article class="container">
-				<p>© 2015 Coderland. All right reserved.</p>
-				<nav>
+				<p class="copyright">© 2015 Coderland. All right reserved.</p>
+				<nav class="footer-nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Contact</a></li>	
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
+				<div class="cleaner"></div>
 			</article>
 		</article>
 	</footer>
