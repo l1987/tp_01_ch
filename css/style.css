@@ -591,3 +591,63 @@ img{
 	}
 
 }
+
+
+/* ************ CONTACTO ************ large */
+/* ************ CONTACTO ************ large */
+/* ************ CONTACTO ************ large */
+		
+
+#contact-banner {
+	background: url(../images/indexbanner-bg2.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.contact-container{
+	max-width: 1200px;
+	margin: auto;
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+
+.contact-container h2 {
+	font-size: 40px;
+}
+
+.contact-container p {
+	font-size: 14px;
+}
+
+.input li {
+	border:solid 1px grey;
+	width: 48%;
+	height: 50px;
+	font-size: 13px;
+	font-family: inherit;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 0 2.5% 10px 2.5%;
+	float: left;
+}
+
+.input li:last-of-type {
+	float: right;
+	position: relative;
+	margin-right: 10px;
+	height: 180px;
+	margin-top: -180px;	
+}
+
+
+.button{
+	border: none;
+	background-color: #06B4F2;
+	width: 16%;
+	height: 60px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+	text-align: center;
+	margin:auto;
+}
